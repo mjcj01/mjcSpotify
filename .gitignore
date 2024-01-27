@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 Spotify Account Data
+.httr-oauth
+spotify_access_token.R
