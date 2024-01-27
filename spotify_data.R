@@ -89,6 +89,7 @@ yearly_length <- spotify_log_merge %>%
             "mean_title_length" = mean(nchar)) %>%
   filter(year != 2024 & year != 2015)
 
+### Test plot 
 spotify_history %>% 
   mutate(ts = as.Date(ts, tz = "%d/%m/%Y %h:%m:%s")) %>% 
   drop_na(master_metadata_track_name) %>% 
